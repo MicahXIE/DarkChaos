@@ -1,0 +1,13 @@
+1. Nodejs Process object
+(1) http://wuxy720.iteye.com/blog/2403909
+process对象其实就是代表着Node.js的应用程序，也是一个全局对象。再次不在赘述，今天我们主要来看看process对象的两个比较特别的属性stdin与stdout。
+(2)https://www.cnblogs.com/vajoy/p/4783390.html
+一个指向 标准输入流(stdin) 的可读流(Readable Stream)。标准输入流默认是暂停 (pause) 的，所以必须要调用 
+process.stdin.resume() 来恢复 (resume) 接收
+
+
+2. Nodejs Datatype
+
+var length = 16;                               // Number
+var lastName = "Johnson";                      // String
+var x = {firstName:"John", lastName:"Doe"};    // Object
