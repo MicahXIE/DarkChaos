@@ -71,6 +71,25 @@ function main() {
     }
 }
 
+7. class declaration
+
+//类的声明
+var Animal = function () {
+    this.name = 'Animal';
+};
+
+//ES6中类的声明
+class Animal2 {
+    constructor () {
+        this.name = 'Animal2';
+    }
+}    
+
+
+8. [ECMAScript] Tagged template literals:
+
+https://www.jianshu.com/p/0c5091e137c0
+
 
 
 
