@@ -90,6 +90,9 @@ class Animal2 {
 
 https://www.jianshu.com/p/0c5091e137c0
 
+tip:
+https://www.w3schools.com/js/js_arrays.asp
+
 
 
 
