@@ -12,7 +12,7 @@ var length = 16;                               // Number
 var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};    // Object
 
-3. var vs let
+3. var vs let vs const
 
 The difference is scoping. var is scoped to the nearest function block and let is scoped to the nearest enclosing block, 
 which can be smaller than a function block. Both are global if outside any block.
@@ -22,6 +22,10 @@ which can be smaller than a function block. Both are global if outside any block
 使用const声明的是常量，在后面出现的代码中不能再修改该常量的值。
 
 https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable-in-jav
+
+const实际上保证的，并不是变量的值不得改动，而是变量指向的那个内存地址所保存的数据不得改动。对于简单类型的数据（数值、字符串、布尔值），值就保存在变量指向的那个内存地址，因此等同于常量。但对于复合类型的数据（主要是对象和数组），变量指向的内存地址，保存的只是一个指向实际数据的指针，const只能保证这个指针是固定的（即总是指向另一个固定的地址），至于它指向的数据结构是不是可变的，就完全不能控制了。
+
+http://es6.ruanyifeng.com/#docs/let
 
 4. Method reference:
 https://www.w3schools.com/js/js_string_methods.asp
