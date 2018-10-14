@@ -94,5 +94,16 @@ tip:
 https://www.w3schools.com/js/js_arrays.asp
 
 
+9. Javascript string operation
+
+const a = readLine().split(' ').map(Number);
+    
+console.log(modifyArray(a).toString().split(',').join(' '));
+
+10. Javascript date
+
+JavaScript获取系统当前日期和时间、星期几
+https://www.cnblogs.com/zjoch/archive/2011/01/31/1948135.html
+
 
 
